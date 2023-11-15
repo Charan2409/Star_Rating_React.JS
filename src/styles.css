@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.star::before {
+  font-size: 50px;
+  content: "\2606";
+}
+.star.rated::before {
+  font-size: 50px;
+  content: "\2605";
+  color: tomato;
+}
